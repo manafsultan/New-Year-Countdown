@@ -29,7 +29,7 @@ body{
   font-weight: bold;
   color: seashell;
   line-height: 1;
-  margin: 1rem 2rem;
+  margin: 2rem 2rem;
 }
 
 .label{
@@ -45,7 +45,7 @@ h1{
   color: transparent;
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 500px) {
   body {
     background: black;
     display: flex;
@@ -56,9 +56,18 @@ h1{
 
   h1{
     font-family: 'Turret Road', cursive;
+    font-size: 3rem;
     font-weight: normal;
     margin-top: 5rem;
     color: seashell;
+  }
+
+  .big-text{
+    font-size: 6rem;
+    font-weight: bold;
+    color: seashell;
+    line-height: 1;
+    margin: 2rem 2rem;
   }
 
 }
